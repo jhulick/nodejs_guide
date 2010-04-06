@@ -12,3 +12,5 @@ st.addListener("data", function(d) {
 
 sys.print('> Enter a number ');
 </pre> 
+
+Note that in the above case d contains a numeric entered value and an end of line character. If you entered <tt>hello</tt> and if you try <tt>d === 'hello'</tt> then it won't match because of end of line character.
